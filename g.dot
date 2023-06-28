@@ -1,0 +1,14 @@
+graph n {
+  1;
+  2;
+  3;
+  4;
+  5;
+  6;
+  1 --  2 [color=red];
+  2 --  3 [color=blue];
+  3 --  4 [color=red];
+  3 --  5 [color=yellow];
+  3 --  6 [color=green];
+  4 --  5 [color=blue];
+}
